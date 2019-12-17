@@ -48,25 +48,31 @@
 			font-size: 1.7rem;
 		}
 
-		p {
-			font-size: 1.2rem;
-			font-weight: normal;
-		}
-
 		#credits {
-			height: 100vh;
+			/* height: 100vh; */
 			background-color: rgba(255, 255, 255, 0.8);
 			margin-left: 25%;
 			margin-right: 25%;
 		}
 
-		#credits h3 {
+		#credits h3 , #credits h2 {
+			font-size: 30px;
 			text-align: center;
 			/* margin-left: 10% */
 		}
 
+		#credits h2{
+			margin-top: 2rem;
+			font-size: 40px;
+		}
+
+		#filler{
+			height: 50vh;
+		}
+
 
 		ul {
+			font-size: 20px;
 			text-align: left;
 			margin-left: 20%;
 			margin-right: 20%;
@@ -83,13 +89,13 @@
 			<br>
 			<div>
 				<h3> Download Latest (Version 0.20)</h3>
-				<button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = 'https://github.com/Pentalink/pentalink-game/releases/download/v0.2.0/Pentalink-macOS-0.2.tar.gz';">macOS</button>
-				<button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = 'https://github.com/Pentalink/pentalink-game/releases/download/v0.2.0/Pentalink.v.0.2-Windows.zip';">Windows</button>
+				<button type = "button" class = "btn btn-primary btn-lg" onclick = "window.location.href = 'https://github.com/Pentalink/pentalink.github.io/releases/download/0.20/Pentalink-0.20-macOS.tar.gz';">macOS</button>
+				<button type = "button" class = "btn btn-primary btn-lg" onclick = "window.location.href = 'https://github.com/Pentalink/pentalink.github.io/releases/download/0.20/Pentalink-0.20-Windows64.zip';">Windows</button>
 			</div>
 			<br>
 			<div>
 				<!-- <h3>Previous releases</h3> -->
-				<button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href = 'https://github.com/Pentalink/pentalink-game/releases/';">Previous releases</button>
+				<button type = "button" class = "btn btn-primary btn-lg" onclick = "window.location.href = 'https://github.com/Pentalink/pentalink.github.io/releases';">Previous releases</button>
 			</div>
 			<br>
 			<div>
@@ -98,7 +104,6 @@
 			</div>
 		</div>
 		<div id='credits'>
-			<div id='credits_container'>
 				<h2 style="font-size: 2.5rem;text-align:center;"> Credits </h2>
 				<br>
 				<h3> Stavan Jain </h3>
@@ -125,8 +130,10 @@
 				<ul>
 					<li>Marketing.</li>
 				</ul>
-			</div>
 		</div>
+	</div>
+	<div id='filler'>
+
 	</div>
 </body>
 
